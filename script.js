@@ -1,6 +1,6 @@
 // Supabase Setup
-const SUPABASE_URL = 'YOUR_SUPABASE_URL';  // Replace with your Supabase URL
-const SUPABASE_ANON_KEY = 'YOUR_SUPABASE_ANON_KEY'; // Replace with your Supabase Anon Key
+const SUPABASE_URL = 'https://jwkovpvkyhzuvslcbwdi.supabase.co';  // Replace with your Supabase URL
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp3a292cHZreWh6dXZzbGNid2RpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDM1NjEwOTYsImV4cCI6MjA1OTEzNzA5Nn0.7zhofd1FYsuwt6ikyh6piyd7tR82STmsYfVJ3mzSEkg'; // Replace with your Supabase Anon Key
 
 const supabase = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
